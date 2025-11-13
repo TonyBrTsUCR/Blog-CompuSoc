@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background: #fafafa;
+  color: #222;
+}
+
+/* CONTENEDOR */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 24px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* border: 2px solid #325c78; */
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+/* HERO HEADER CON IMAGEN */
+.hero-header {
+  position: relative;
+  width: 100%;
+  height: 380px;
+  background-image: url("https://delatorre.ai/wp-content/uploads/2024/01/Futuro-Innovador-de-la-Inteligencia-Artificial.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-header .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.hero-text {
+  position: relative;
+  color: white;
+  text-align: center;
+  z-index: 2;
+  padding: 20px;
+}
+
+.hero-text h1 {
+  font-size: 34px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.hero-text p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* NAV MODERNO */
+.nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 17px;
+  background: #325c78;
+  color: white;
+  transition: all 0.25s ease;
+  display: inline-block;
+}
+
+.nav ul li a:hover {
+  background: #223f52;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* TITULOS */
+h2 {
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* FOOTER */
+.footer {
+  background: #325c78;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer p {
+  color: white;
+  margin: 0;
+  font-size: 14px;
+}
+
+/* BOTÓN VOLVER */
+.back-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 22px;
+    background: #325C78;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 30px;
+    transition: all 0.25s ease;
+}
+
+.back-button:hover {
+    background: #223f52;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
